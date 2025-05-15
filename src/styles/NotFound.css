@@ -1,0 +1,33 @@
+.not-found {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.not-found-content {
+  max-width: 500px;
+  padding: 2rem;
+}
+
+.not-found h1 {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.not-found h2 {
+  margin-bottom: 1.5rem;
+}
+
+.not-found p {
+  margin-bottom: 2rem;
+  color: var(--color-gray-600);
+}
+
+@media (max-width: 576px) {
+  .not-found h1 {
+    font-size: 4rem;
+  }
+}
